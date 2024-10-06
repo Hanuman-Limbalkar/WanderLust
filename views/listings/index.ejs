@@ -1,0 +1,80 @@
+<!-- <% layout('/layouts/boilerplate') -%>
+<body>
+  <h3>All Listings</h3>
+
+  <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+    <% for(let listing of allListings) { %>
+      <div class="col mb-4">
+        <a href="/listings/<%= listing._id %>" style="text-decoration: none; color: inherit;">
+          <div class="card" style="width: 18rem;">
+            <img src="<%= listing.image.url ? listing.image.url : 'https://via.placeholder.com/300x200.png?text=No+Image+Available' %>" 
+                 class="card-img-top" 
+                 alt="Image not found" 
+                 onerror="this.src='https://via.placeholder.com/300x200.png?text=No+Image+Available';"
+                 style="height: 20rem; object-fit: cover;"> 
+            <div class="card-body">
+              <p class="card-text">
+                <b><%= listing.title %></b> <br />
+                &#8377; <%= listing.price.toLocaleString("en-IN") %> / night
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    <% } %>
+  </div>
+</body> -->
+
+
+<!-- <% layout('/layouts/boilerplate') -%>
+  <h3>All Listings</h3>
+
+  <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+    <% for(let listing of allListings) { %>
+      <div class="col mb-4">
+        <a href="/listings/<%= listing._id %>" style="text-decoration: none; color: inherit;">
+          <div class="card" style="width: 18rem;">
+            <img 
+              src="<%= listing.image.url ? listing.image.url : 'https://images.unsplash.com/photo-1593642532973-d31b6557fa68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGltYWdlfGVufDB8fHx8MTYwNzcyNzEyMw&ixlib=rb-1.2.1&q=80&w=400' %>" 
+              class="card-img-top" 
+              alt="Image not found" 
+              onerror="this.src='https://images.unsplash.com/photo-1593642532973-d31b6557fa68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGltYWdlfGVufDB8fHx8MTYwNzcyNzEyMw&ixlib=rb-1.2.1&q=80&w=400';"
+              style="height: 20rem; object-fit: cover;">
+            <div class="card-body">
+              <p class="card-text">
+                <b><%= listing.title %></b> <br />
+                &#8377; <%= listing.price.toLocaleString("en-IN") %> / night
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    <% } %>
+  </div>
+ -->
+
+ <% layout('/layouts/boilerplate') -%>
+  <h3>All Listings</h3>
+
+  <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+    <% for(let listing of allListings) { %>
+      <div class="col mb-4">
+        <a href="/listings/<%= listing._id %>" style="text-decoration: none; color: inherit;">
+          <div class="card" style="width: 18rem;">
+            <img 
+              src="<%= listing.image && listing.image.url ? listing.image.url : 'https://images.unsplash.com/photo-1593642532973-d31b6557fa68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGltYWdlfGVufDB8fHx8MTYwNzcyNzEyMw&ixlib=rb-1.2.1&q=80&w=400' %>" 
+              class="card-img-top" 
+              alt="Image not found" 
+              onerror="this.src='https://images.unsplash.com/photo-1593642532973-d31b6557fa68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGltYWdlfGVufDB8fHx8MTYwNzcyNzEyMw&ixlib=rb-1.2.1&q=80&w=400';"
+              style="height: 20rem; object-fit: cover;">
+            <div class="card-body">
+              <p class="card-text">
+                <b><%= listing.title %></b> <br />
+                &#8377; <%= listing.price.toLocaleString("en-IN") %> / night
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    <% } %>
+  </div>
