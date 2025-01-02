@@ -347,6 +347,138 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
   },
+  {
+      title: "Charming Countryside Cottage",
+      description: "Escape to the countryside in this charming cottage, surrounded by rolling hills and fresh air. Perfect for a family vacation.",
+      image: {
+        filename: "listingimage",
+        url: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fG5hdHVyZXxlbnwwfHx8fDE2MTYxMTc0MjI&ixlib=rb-1.2.1&q=80&w=400",
+      },
+      price: 1500,
+      location: "Ooty",
+      country: "India",
+  },
+  {
+    title: "Elegant Villa with Pool",
+    description: "Enjoy luxury living in this elegant villa featuring a private pool and stunning ocean views. Ideal for a lavish getaway.",
+    image: {
+      filename: "listingimage",
+      url: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHBvb2wlMjB2aWxsYXxlbnwwfHx8fDE2MTYxMTc0MjI&ixlib=rb-1.2.1&q=80&w=400",
+    },
+    price: 5000,
+    location: "Bali",
+    country: "Indonesia",
+  },
+  {
+    "title": "Modern Mountain Retreat",
+    "description": "Experience the tranquility of the mountains in this sleek modern retreat, featuring panoramic views and cozy interiors.",
+    "image": {
+      "filename": "mountain_retreat",
+      "url": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fG5hdHVyZXxlbnwwfHx8fDE2MTYxMTc0MjI&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 1800,
+    "location": "Manali",
+    "country": "India"
+  },
+  {
+    "title": "Seaside Serenity Villa",
+    "description": "Wake up to the sound of waves in this luxurious seaside villa. Enjoy private beach access and stunning ocean views.",
+    "image": {
+      "filename": "seaside_villa",
+      "url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHNlYXNpZGV8ZW58MHx8fHwxNjE2MTE3NDIy&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 2500,
+    "location": "Goa",
+    "country": "India"
+  },
+  {
+    "title": "Rustic Forest Cabin",
+    "description": "Immerse yourself in nature with this rustic forest cabin. Perfect for a peaceful getaway surrounded by trees.",
+    "image": {
+      "filename": "forest_cabin",
+      "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNhYmlufGVufDB8fHx8MTYxNjExNzQyMg&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 1200,
+    "location": "Munnar",
+    "country": "India"
+  },
+  {
+    "title": "Chic Urban Apartment",
+    "description": "Stay in the heart of the city in this chic apartment. Enjoy modern amenities and easy access to top attractions.",
+    "image": {
+      "filename": "urban_apartment",
+      "url": "https://images.unsplash.com/photo-1505692794403-7bdc4b7af11f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fGFwYXJ0bWVudHxlbnwwfHx8fDE2MTYxMTc0MjI&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 2000,
+    "location": "Mumbai",
+    "country": "India"
+  },
+  {
+    "title": "Cozy Countryside Cottage",
+    "description": "Relax in this cozy countryside cottage with a warm interior and beautiful garden views.",
+    "image": {
+      "filename": "countryside_cottage",
+      "url": "https://images.unsplash.com/photo-1556911073-52527ac43730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNvdHRhZ2V8ZW58MHx8fHwxNjE2MTE3NDIy&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 1300,
+    "location": "Shimla",
+    "country": "India"
+  },
+  {
+    "title": "Lakeside Luxury Villa",
+    "description": "Enjoy lakeside living in this luxurious villa. Perfect for a relaxing holiday with family or friends.",
+    "image": {
+      "filename": "lakeside_villa",
+      "url": "https://images.unsplash.com/photo-1572120360610-d971b9e7a55b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fGxha2VzaWRlfGVufDB8fHx8MTYxNjExNzQyMg&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 3000,
+    "location": "Udaipur",
+    "country": "India"
+  },
+  {
+    "title": "Hilltop Heritage Mansion",
+    "description": "Stay in a hilltop mansion that combines heritage charm with modern luxury. Breathtaking views guaranteed.",
+    "image": {
+      "filename": "heritage_mansion",
+      "url": "https://images.unsplash.com/photo-1557699312-5c0fcd9e4c4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fG1hbnNpb258ZW58MHx8fHwxNjE2MTE3NDIy&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 4000,
+    "location": "Darjeeling",
+    "country": "India"
+  },
+  {
+    "title": "Charming Village Home",
+    "description": "Discover the charm of village life in this beautiful home, complete with a spacious courtyard and traditional decor.",
+    "image": {
+      "filename": "village_home",
+      "url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHZpbGxhZ2V8ZW58MHx8fHwxNjE2MTE3NDIy&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 1000,
+    "location": "Alleppey",
+    "country": "India"
+  },
+  {
+    "title": "Tropical Beach Bungalow",
+    "description": "Stay in this tropical beach bungalow for a relaxing getaway. Just steps away from pristine white sand beaches.",
+    "image": {
+      "filename": "beach_bungalow",
+      "url": "https://images.unsplash.com/photo-1544636338-3a08870d3f4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGJ1bmdhbG93fGVufDB8fHx8MTYxNjExNzQyMg&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 2200,
+    "location": "Andaman",
+    "country": "India"
+  },
+  {
+    "title": "Serene Garden House",
+    "description": "A serene garden house perfect for nature lovers. Enjoy the lush greenery and peaceful surroundings.",
+    "image": {
+      "filename": "garden_house",
+      "url": "https://images.unsplash.com/photo-1533464004052-42f1e9919769?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGdhcmRlfGVufDB8fHx8MTYxNjExNzQyMg&ixlib=rb-1.2.1&q=80&w=400"
+    },
+    "price": 1700,
+    "location": "Coorg",
+    "country": "India"
+  },
 ];
 
 module.exports = { data: sampleListings };

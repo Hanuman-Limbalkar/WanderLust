@@ -24,35 +24,57 @@
     color: #222222 !important;
 }
 /* footer */
-.f-info-link a{
-    text-decoration: none;
-    color : #222222;
-}
-.f-info-link a:hover {
-text-decoration: underline;
-}
-.f-info
-{
-    text-align: center;
+/* General body styling */
+body {
     display: flex;
-    height: 8rem;
-    background-color: bisque;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-evenly;
-}
-.f-info-link, .f-info-social, .brand{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Plus Jakarta Sans', sans-serif; /* Adjust font family */
+    margin: 0;
 }
 
-.f-info-social i{
-    font-size: 1.2rem;
-    margin-right: 1rem;
+/* Container takes up remaining space */
+.container {
+    flex: 1;
 }
-.card
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;  /* This ensures footer is pushed to bottom if content is less */
+}
+
+/* Social Media Icons */
+.f-info-social i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+/* Footer Links */
+.f-info-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.f-info-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    .f-info-social i {
+        font-size: 1.2rem;
+    }
+
+    .f-info-link a {
+        font-size: 0.9rem;
+    }
+}
+
+.listing-card
 {
     border: none !important;
     margin-bottom: 2rem;
@@ -92,4 +114,29 @@ text-decoration: underline;
 {
     padding-left: 0;
     padding-right: 0;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    .f-info-social i {
+        font-size: 1.2rem;
+    }
+
+    .f-info-link a {
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
 }
