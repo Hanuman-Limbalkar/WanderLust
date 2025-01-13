@@ -38,4 +38,6 @@ Authentication: Passport.js
 
 Image Storage: Cloudinary
 
+![WanderLust](https://github.com/user-attachments/assets/12352387-8b20-4df6-bd4f-ca9e03bdcea8)
+
 
